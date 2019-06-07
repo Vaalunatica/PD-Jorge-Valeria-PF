@@ -81,8 +81,6 @@ Icons: https://www.copypastecharacter.com/
 ========================================*/
 
 
-
-
 .container{
   padding-left: 15px;
   padding-right: 15px; 
@@ -95,13 +93,14 @@ Icons: https://www.copypastecharacter.com/
   width: 1200px;
   height: 600px;
 
-}/* 
+}
+
+/* 
 
 Podemos usar esta clase de contenedor en diferentes elementos para establecer un width común, centrar los elementos en la página y aplicar un padding horizontal común.
 Establecer un width le dice al navegador definitivamente qué tan ancho debe ser cualquier elemento con la clase de contenedor. El uso de un margen izquierdo y derecho de 
 "auto" junto con el width establecido permite que el navegador descubra automáticamente los márgenes izquierdo y derecho iguales para el elemento, centrándolo así en la página. Por último, el padding izquierdo y derecho garantiza que nuestro contenido no esté sentado directamente en el borde del elemento y proporciona un poco de espacio para respirar el contenido.
 */
-
 
 
 
@@ -135,7 +134,6 @@ Establecer un width le dice al navegador definitivamente qué tan ancho debe ser
   The vertical-align property accepts a handful of different values; the most popular values are top, middle, and bottom. */
 
 
-
 .col-1-3{
   width: 43.33%;
 } 
@@ -148,8 +146,6 @@ Establecer un width le dice al navegador definitivamente qué tan ancho debe ser
 } 
 
 /*two columns with the total width split between them  -- This column will ocupy two thirds of the element width*/
-
-
 
 
 
@@ -320,11 +316,10 @@ padding: 10px 30px;
   color: #ffff;
   cursor: pointer;
 }
+
 .btn-default:hover {
   background: #FFD000;
 }
-
-
 
 
   /*========================================
@@ -376,6 +371,13 @@ padding: 10px 30px;
 }
 
 
+
+
+
+
+
+
+
 /*==========================
   Navigation
 =============================*/
@@ -407,17 +409,6 @@ padding: 10px 30px;
   Main Content/Home
   ========================================
   +++++++++++++*/
-
-color pallete
-
-#99a1a8;
-#8b0975;
-#70267d;
-#397c93;
-
-  +++++++++++++++
-
-
 
 
 
@@ -550,72 +541,55 @@ https://listverse.com/2012/01/10/top-10-greatest-reggae-singers/
 */
 
 .estilosiconos {
-  display: inline-block;
-  text-align: center;
-  margin-right: 15x;
-  margin-left: 15x;
-  margin-top: 130px;
+
   font: 14px;
   font-family: Century Gothic;
   color: #fff;
+  text-align: center;
 
 }
 
 
-.iconos {
+.iconos div {
+
   display: inline-block;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
   margin-top: 40px;
-
+  height: 200px;
+  width: 200px;
 }
 
-.icono1 {
+.iconos span {
 
-  background: url("../img/dancehall.png") center center no-repeat;
-  width: 100px;
-  height: 100px;
-  background-size: 100px 100px;
-
-}
-
-
-.icono2 {
-
-  background: url("../img/dub.png") center center no-repeat;
-  width: 100px;
-  height: 100px;
-  background-size: 100px 100px;
+  position: initial;
+  display: block;
+  margin-top: 90%;
 }
 
 
-.icono3 {
-
-  background: url("../img/roots.png") center center no-repeat;
-  width: 100px;
-  height: 100px;
-  background-size: 100px 100px;
-  
+.div1 {
+  background: url("../img/dancehall.png") no-repeat;  
+  background-size:  70% 70% ;
 }
 
-.icono4 {
-
-  background: url("../img/fusion.png") center center no-repeat;
-  width: 100px;
-  height: 100px;
-  background-size: 100px 100px;
-  
+.div2 {
+  background: url("../img/dub.png")no-repeat;
+  background-size:  70% 70% ;
 }
 
-.icono5 {
-
-  background: url("../img/reggaeton.png") center center no-repeat;
-  width: 100px;
-  height: 100px;
-  background-size: 100px 100px;
-  
-  {
-
+.div3 {
+  background: url("../img/roots.png")no-repeat; 
+  background-size:  70% 70% ;
+}
+.div4 {
+  background: url("../img/fusion.png")no-repeat;
+  background-size:  70% 70% ;
+}
+.div5 {
+  background: url("../img/reggaeton.png")no-repeat;
+  background-size:  70% 70% ;
+}
 
 
   /*========================================
