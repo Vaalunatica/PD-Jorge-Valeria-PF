@@ -105,7 +105,7 @@ Icons: https://www.copypastecharacter.com/
 .multicontainer {
   margin: 0 auto;
   width: 1200px;
-  height: 600px;
+  height: auto;
 
 }
 
@@ -118,14 +118,16 @@ Establecer un width le dice al navegador definitivamente qué tan ancho debe ser
 
 .multicontainer,
 .bodytext {
-
-  padding-top: 200px;
   padding-left: 25px;
   padding-right: 25px;
   line-height : 20px;
 
 }
 
+.bodytext h1, h2, p {
+margin: 0;
+
+}
 
 /*The vertical-align property works only with inline and table-cell elements—it won’t work for block, inline-block, or any other element levels === 
   The vertical-align property accepts a handful of different values; the most popular values are top, middle, and bottom. */
@@ -432,7 +434,7 @@ body{
 }
 
 .subBanner {
-height: 70px;
+height: 40px;
 }
 
 
@@ -495,9 +497,12 @@ height: 70px;
 
 /*===Segunda seccion===*/
 
-.secondsection{
+.secondsection h2{
+  margin: 2% 0 0 0;
+}
 
-  margin-top: 60px;
+.secondsection p{
+  margin: 2% 0 2% 0;
   text-align: center;
 }
 
@@ -536,38 +541,123 @@ height: 70px;
 
 .div1 {
   background: url("../img/dancehall.png") no-repeat;  
-  background-size:  70% 70% ;
+  background-size:  100% 80% ;
 }
+
+.div1 audio {
+  display:  none;
+}
+
+.div1:hover audio {
+
+  display: block;
+  margin-bottom: 60px;
+  position: relative;
+  bottom: 220px;
+  right: 40px;
+}
+
+.div1:hover  {
+
+  box-shadow: 5px 10px 18px #9542f4;
+}
+
 
 .div2 {
   background: url("../img/dub.png")no-repeat;
-  background-size:  70% 70% ;
+  background-size:  100% 80% ;
 }
+
+
+.div2 audio {
+  display:  none;
+}
+
+.div2:hover audio {
+
+  display: block;
+  margin-bottom: 60px;
+  position: relative;
+  bottom: 220px;
+  right: 40px;
+}
+.div2:hover  {
+
+  box-shadow: 5px 10px 18px #9542f4;
+}
+
 
 .div3 {
   background: url("../img/roots.png")no-repeat; 
-  background-size:  70% 70% ;
+  background-size:  100% 80% ;
 }
+
+.div3 audio {
+  display:  none;
+}
+
+.div3:hover audio {
+
+  display: block;
+  margin-bottom: 60px;
+  position: relative;
+  bottom: 220px;
+  right: 40px;
+}
+.div3:hover  {
+
+  box-shadow: 5px 10px 18px #9542f4;
+}
+
 
 .div4 {
   background: url("../img/fusion.png")no-repeat;
-  background-size:  70% 70% ;
+  background-size:  100% 80%;
+}
+
+.div4 audio {
+  display:  none;
+}
+
+.div4:hover audio {
+
+  display: block;
+  margin-bottom: 60px;
+  position: relative;
+  bottom: 220px;
+  right: 40px;
+}
+
+.div4:hover  {
+
+  box-shadow: 5px 10px 18px #9542f4;
 }
 
 .div5 {
   background: url("../img/reggaeton.png")no-repeat;
-  background-size:  70% 70% ;
+  background-size:  100% 80%;
+}
+
+.div5 audio {
+  display:  none;
+}
+
+.div5:hover audio {
+
+  display: block;
+  margin-bottom: 60px;
+  position: relative;
+  bottom: 220px;
+  right: 40px;
+}
+
+.div5:hover  {
+
+  box-shadow: 5px 10px 18px #9542f4;
 }
 
 
-.playlist {
 
-  display: list-item;
-  margin-top: 20px;
-  margin-right: 0px;
-  margin-left:0px;
-
-}
 
 
 
@@ -578,16 +668,15 @@ footer {
 
 
   width: 1920px;
-  height: 200px;
+  height: auto;
   background-color: #161616;
 
 }
 
 .primary-footer {
 
-  padding-bottom: 44px;
-  padding-top: 44px;
-  color: #648880;
+  padding-top: 14px;
+  color: #FFD000;
   font-size: 14px;
 
 }

@@ -510,6 +510,9 @@ height: 70px;
   margin-top: 250px;
 }
 
+
+
+
 .iconos {
   margin: opx;
   padding: 0px;
@@ -561,12 +564,7 @@ height: 70px;
 
 
 .playlist {
-
-  display: list-item;
-  margin-top: 20px;
-  margin-right: 0px;
-  margin-left:0px;
-
+display: none;
 }
 
 
