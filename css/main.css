@@ -92,59 +92,28 @@ Icons: https://www.copypastecharacter.com/
 
 /*=== *** Contenedores ***====*/
 
-
-.container{
-
-  padding-left: 15px;
-  padding-right: 15px; 
-
-} /*Added to the next, we get the parent box with breath anc centered*/
-
-
-.container,
-.multicontainer {
-  margin: 0 auto;
-  width: 1200px;
-  height: auto;
-
+.contenedor{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 0;
+  padding: 0;
 }
 
-/* 
-
-Podemos usar esta clase de contenedor en diferentes elementos para establecer un width común, centrar los elementos en la página y aplicar un padding horizontal común.
-Establecer un width le dice al navegador definitivamente qué tan ancho debe ser cualquier elemento con la clase de contenedor. El uso de un margen izquierdo y derecho de 
-"auto" junto con el width establecido permite que el navegador descubra automáticamente los márgenes izquierdo y derecho iguales para el elemento, centrándolo así en la página. Por último, el padding izquierdo y derecho garantiza que nuestro contenido no esté sentado directamente en el borde del elemento y proporciona un poco de espacio para respirar el contenido.
-*/
-
-.multicontainer,
-.bodytext {
-  padding-left: 25px;
-  padding-right: 25px;
-  line-height : 20px;
-
+.contenedor p {
+  margin-bottom: 40px;
 }
 
-.bodytext h1, h2, p {
-margin: 0;
-
+.testing{
+ background: rgba(22, 22, 22, 0.8);
 }
-
-/*The vertical-align property works only with inline and table-cell elements—it won’t work for block, inline-block, or any other element levels === 
-  The vertical-align property accepts a handful of different values; the most popular values are top, middle, and bottom. */
-
-} 
-
-/*two columns with the total width split between them  -- This column will ocupy two thirds of the element width*/
-
-
 
 
 
  /* ========================================
-  Clearfix  "Containing Floats "
+Clearfix  "Containing Floats "
   --
 this basically ensures that when applying float to elements, if we apply this class to the parent container element of that floated element, this clearfix will ensure the flow of the document after and before it wont be affected by the float
-
   ========================================*/
 
 
@@ -181,34 +150,35 @@ p {
   color: #fff;
   font-family: Century Gothic, Arial;
   text-align: justify;
-}
-
-h1, h2, p {
-
+  margin-left: 55px;
+  margin-right: 55px;
   margin-bottom: 50px;
   margin-top: 30px;
-
+  line-height: 20px;
 }
 
 h1 {
 
   font-family: Century Gothic, Arial;
   position: absolute;
-  top: 85%;
-  left: 32%;
+  margin-bottom: 0px;
+  top: 478px;
+  right: 570px;
   text-align: center;
   font-size: 25px;
   line-height: 44px;
   color: #FFD000;
-
 }
 
 h2 {
+
   font-family: Winter Brush Demo;
   font-size: 45px;
-  margin-bottom: 30px;
+  margin-bottom:0px;
+  margin-top: 45px;
   color: #FFD000;
   text-align: center;
+  top:0;
 }
 
 strong {
@@ -223,21 +193,13 @@ cite, em {
 
 
 hr {
-  top:500px;
-	color: #FFD000;
-	height: 1.1px;
-	width: 90%;
-	
-	margin-bottom: 0px;
-	padding: 0;
 
+  background-color: #FFD000;
+  height: 3px;
+  width: 90%;
+  margin: 60px;
+  padding: 0;
 }
-
-
- .testing {
-  background: rgba(22, 22, 22, 0.8);
-
-} 
 
 
 /*===<a> Links ===*/
@@ -391,13 +353,6 @@ p a {
 
 }
 
-
-
-
-
-
-
-
 /*===Additional PAGE 1 ===*/
 
 .inlineblk {
@@ -410,31 +365,18 @@ body{
 }
 
 
-/* ===Home Initial Banner=== */
-
-  
-
- .homeinit {
-
-  font-family: Century Gothic, Arial;
-  height: 460px;
-  position: relative;
-
- }  
-
-
-/*--===SubBanner===*/
-
 .controlBar {
 
-  background-color: #fff;
-  width: 90%;
-  float: right;
-  color: #000;
+  background-color: #efefef;
+  width: 100%;
+  margin: 0px ;
+  top: 0px;
+
 }
 
 .subBanner {
-height: 40px;
+
+  height: 40px;
 }
 
 
@@ -450,7 +392,7 @@ height: 40px;
   height: 300px;
   border-radius: 15px;
   margin-right: 90px;
-  margin-left:  60px;
+  margin-left:  110px;
 
 
 }
@@ -463,8 +405,8 @@ height: 40px;
   width: 200px;
   height: 300px;
   border-radius: 15px;
-  margin-right: 110px;
-  margin-left: 100px;
+  margin-right: 90px;
+  margin-left:  90px;
 
 }
 
@@ -496,15 +438,6 @@ height: 40px;
 
 
 /*===Segunda seccion===*/
-
-.secondsection h2{
-  margin: 2% 0 0 0;
-}
-
-.secondsection p{
-  margin: 2% 0 2% 0;
-  text-align: center;
-}
 
 .estilosiconos {
   font: 14px;
@@ -541,7 +474,8 @@ height: 40px;
 
 .div1 {
   background: url("../img/dancehall.png") no-repeat;  
-  background-size:  100% 80% ;
+  background-size:  80% 80% ;
+  background-position: center top;
 }
 
 .div1 audio {
@@ -565,7 +499,8 @@ height: 40px;
 
 .div2 {
   background: url("../img/dub.png")no-repeat;
-  background-size:  100% 80% ;
+  background-size:  80% 80% ;
+  background-position: center top;
 }
 
 
@@ -589,7 +524,8 @@ height: 40px;
 
 .div3 {
   background: url("../img/roots.png")no-repeat; 
-  background-size:  100% 80% ;
+  background-size:  80% 80% ;
+  background-position: center top;
 }
 
 .div3 audio {
@@ -612,7 +548,8 @@ height: 40px;
 
 .div4 {
   background: url("../img/fusion.png")no-repeat;
-  background-size:  100% 80%;
+  background-size:  80% 80% ;
+  background-position: center top;
 }
 
 .div4 audio {
@@ -624,7 +561,7 @@ height: 40px;
   display: block;
   margin-bottom: 60px;
   position: relative;
-  bottom: 100px;
+  bottom: 10px;
   right: 40px;
 }
 
@@ -635,7 +572,8 @@ height: 40px;
 
 .div5 {
   background: url("../img/reggaeton.png")no-repeat;
-  background-size:  100% 80%;
+  background-size:  80% 80% ;
+  background-position: center top;
 }
 
 .div5 audio {
