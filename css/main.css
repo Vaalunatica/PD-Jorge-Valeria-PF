@@ -197,7 +197,7 @@ hr {
   background-color: #FFD000;
   height: 3px;
   width: 90%;
-  margin: 60px;
+  margin: 80px;
   padding: 0;
 }
 
@@ -227,7 +227,7 @@ p a {
 }
 
 .primary-header a:hover,
-.primary-footer a:hoover {
+.primary-footer a:hover {
 
   color: #000000;
 
@@ -343,10 +343,7 @@ p a {
 
 
 
-  /*========================================
-  Main Content/Home
-  ========================================
-  +++++++++++++*/
+  /*===== Main Content/Home ===== */
 
 .maintitle {
   background: url(../img/headerHome.jpg)  center no-repeat;
@@ -363,6 +360,8 @@ body{
 
 	background: #000000 url("../img/fondo.png") repeat;
 }
+
+
 
 
 .controlBar {
@@ -450,8 +449,9 @@ body{
 }
 
 .iconos {
-  margin: opx;
+  margin: 0px;
   padding: 0px;
+
 
   
 }
@@ -459,8 +459,8 @@ body{
 
   display: inline-block;
   padding: 0px;
-  margin-right: 10px;
-  margin-left: 30px;
+  margin-right: 36px;
+  margin-left: 20px;
   margin-top: 40px;
   height: 180px;
   width: 180px;
@@ -478,22 +478,10 @@ body{
   background-position: center top;
 }
 
-.div1 audio {
-  display:  none;
-}
-
-.div1:hover audio {
-
-  display: block;
-  margin-bottom: 60px;
-  position: relative;
-  bottom: 100px;
-  right: 40px;
-}
-
 .div1:hover  {
 
-  box-shadow: 5px 10px 18px #9542f4;
+  box-shadow: 5px 10px 10px #008158;
+
 }
 
 
@@ -503,22 +491,10 @@ body{
   background-position: center top;
 }
 
-
-.div2 audio {
-  display:  none;
-}
-
-.div2:hover audio {
-
-  display: block;
-  margin-bottom: 60px;
-  position: relative;
-  bottom: 100px;
-  right: 40px;
-}
 .div2:hover  {
 
-  box-shadow: 5px 10px 18px #9542f4;
+  box-shadow: 5px 10px 10px #FFD000;
+
 }
 
 
@@ -528,21 +504,10 @@ body{
   background-position: center top;
 }
 
-.div3 audio {
-  display:  none;
-}
 
-.div3:hover audio {
-
-  display: block;
-  margin-bottom: 60px;
-  position: relative;
-  bottom: 100px;
-  right: 40px;
-}
 .div3:hover  {
 
-  box-shadow: 5px 10px 18px #9542f4;
+  box-shadow: 5px 10px 10px #E12534;
 }
 
 
@@ -552,22 +517,10 @@ body{
   background-position: center top;
 }
 
-.div4 audio {
-  display:  none;
-}
-
-.div4:hover audio {
-
-  display: block;
-  margin-bottom: 60px;
-  position: relative;
-  bottom: 10px;
-  right: 40px;
-}
-
 .div4:hover  {
 
-  box-shadow: 5px 10px 18px #9542f4;
+  box-shadow: 5px 10px 10px #FFD000;
+
 }
 
 .div5 {
@@ -576,148 +529,72 @@ body{
   background-position: center top;
 }
 
-.div5 audio {
-  display:  none;
-}
-
-.div5:hover audio {
-
-  display: block;
-  margin-bottom: 60px;
-  position: relative;
-  bottom: 100px;
-  right: 40px;
-}
-
 .div5:hover  {
 
-  box-shadow: 5px 10px 18px #9542f4;
+  box-shadow: 5px 10px 10px #008158;
 }
 
 
+.music {
+
+  display: inline;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 14px;
+  width: 800px;
 
 
+}
 
 
-
-/*=== Primary footer===*/
+/*=== Footer ===*/
 
 footer {
 
-
-  width: 1920px;
-  height: auto;
+  width: 100%;
+  height: 120px;
   background-color: #161616;
+
+}
+
+.logofooter {
+
+padding: 25px;
+margin: 0px auto;
+float: left;
+
 
 }
 
 .primary-footer {
 
-  padding-top: 14px;
+
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-top: 10px;
   color: #FFD000;
   font-size: 14px;
 
 }
 
-.primary-footer small {
+small {
 
-  float: left;
+  margin-left: 400px;
+
+  z-index: 1000px;
 
 }
 
 
-  /*========================================
-  Additional PAGE 2
-  ========================================
-*/
-
-
-  /*========================================
-  Additional PAGE 3
-  ========================================
-*/
-
-
-
-
-
-
-
-
-
-/*
-  ========================================
-  Table Styling - Optional- 
-  ========================================
-*/
-
-
-/*  JUST FOR CHECK LINES--
-table,
-thead,
-th,
-tr,
-td {
-  border: 1px solid black;
-} 
-
-/*
-table {
-  margin-bottom: 44px;
-  width: 100%;
+.navfooter ul li{
+  float: right;
+  font-color: #008158;
+  font-family: century gothic, arial;
+  padding: 20px;
+  margin-right: 30px;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 18px;
 }
-table:last-child {
-  margin-bottom: 0;
-}
-
-
-
-th,
-td {
-  padding-bottom: 22px;
-  vertical-align: top;
-}
-th {
-  padding-right: 45px;
-  text-align: right;
-  width: 20%;
-}
-td {
-  width: 40%;
-}
-thead {
-  line-height: 44px;
-}
-thead th {
-  color: #000000;
-  font-size: 24px;
-}
-tbody th {
-  color: #000000;
-  font-size: 14px;
-  font-weight: 400;
-  padding-top: 22px;
-  text-transform: uppercase;
-}
-tbody td {
-  border-top: 1px solid #000000;
-  padding-top: 21px;
-}
-tbody td:first-of-type {
-  padding-right: 15px;
-}
-tbody td:last-of-type {
-  padding-left: 15px;
-}
-tbody td:only-of-type {
-  padding-left: 0;
-  padding-right: 0;
-}
-table a {
-  color: #888;
-}
-table h4 {
-  margin-bottom: 0;
-}
-*/
 
